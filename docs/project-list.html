@@ -1,0 +1,9 @@
+<h2>Repositories of mine that have gh-pages sites</h2>
+
+<ul>
+{% for repository in site.github.public_repositories %}
+  {% if repository.has_pages %}
+    <li><a href="/{{ repository.name }}">{{ repository.name }}</a></li>
+  {% endif %}
+{% endfor %}
+</ul>
