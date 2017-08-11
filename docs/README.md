@@ -8,6 +8,6 @@
 * {{ page.name }}
     * dir: {{ page.dir }}
     * path: {{ page.path }}
-    * url: {{ page.url }}
-    * index: {{ page.index }}
+    * url: {{ page.url | relative_url }}
+    * {{ page | jsonify }}
 {% endfor %}
