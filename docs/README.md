@@ -11,5 +11,5 @@
 ## Static Files
 
 {% for static_file in site.static_files %}
-* [{{ static_file.name }}]({{ static_file.path | relative_url }})
+* [{{ static_file.path | remove_first: "/" }}]({{ static_file.path | relative_url }})
 {% endfor %}
