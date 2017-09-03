@@ -2,6 +2,10 @@
 
 [Does Liquid work in Markdown?](liquid-in-markdown.md)
 
+## emoji
+
+:heavy_check_mark: | :x:
+
 ## Pages
 
 {% for page in site.pages %}
