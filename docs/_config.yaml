@@ -1,0 +1,7 @@
+url: http://foo.bar.baz/
+github_username: johnny5
+
+plugins:
+  - jemoji
+
+host: 0.0.0.0
